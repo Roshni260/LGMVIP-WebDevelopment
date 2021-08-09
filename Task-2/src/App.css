@@ -1,0 +1,88 @@
+.navbar{
+  background-image: url("navback.jpg");
+  margin-top: -20px;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  
+}
+
+
+.navitems{
+  display: flex;
+}
+
+button{
+  flex: 50%;
+  margin-top: 60px;
+  margin-left: 800px;
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  color: rgb(32, 146, 212);
+}
+
+button:hover{
+  background-color: rgb(32, 146, 212);
+  color: aliceblue;
+}
+
+h2{
+  flex:50%;
+  color: rgb(32, 146, 212);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 60px;
+  margin-left: 90px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2:hover{
+  color: antiquewhite;
+}
+
+.avatar{
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 200px;
+  }
+
+
+
+.profile {
+  margin-bottom: 50px;
+  border-radius:20%;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  background-image: linear-gradient(rgb(32, 146, 212), white);
+  box-shadow: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); 
+}
+
+.profile:hover{
+  transform: scale(1.1);
+}
+.profile h1{
+  font-size: 25px;
+  margin-top: 0px;
+  color: rgb(7, 7, 97);
+}
+
+.profile .email{
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.profile p{
+  margin-top: -2px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
